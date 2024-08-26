@@ -1,0 +1,15 @@
+[lx,ly,lz]
+def cx(q0: qbit(lx), q1: qbit(ly)) {
+    let aux = init(lz) in
+    let a = measure[X,X](aux, q1) in
+    if a { Z(q0) };
+    let b = measure[Z,Z](q0, aux) in
+    if b { X(q1) };
+    let c = measure[X](aux) in
+    if c { Z(q0) };
+    free aux
+}
+
+let q0 = init(l0) in
+let q1 = init(l1) in
+cx[l0,l1,l2](q0, q1)

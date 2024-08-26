@@ -1,0 +1,10 @@
+let q1 = init(l0) in
+let q2 = init(l3) in
+let q3 = init(l2) in
+let q4 = init(l5) in
+
+let aux1 = init(l1) in
+let aux2 = init(l4) in
+let v1 = measure[Z,Z](aux1, q4) in
+let v2 = measure[Z,Z](aux2, q3) in
+()

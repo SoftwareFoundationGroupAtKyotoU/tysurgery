@@ -1,0 +1,7 @@
+let x = mkref true in
+while *x {
+    let q0 = init(l0) in
+    let v = measure[Z](q0) in
+    x := v;
+    free q0
+}

@@ -1,0 +1,7 @@
+let flag = mkref true in
+while *flag {
+  let q = init(l0) in
+  H(q);
+  let v = measure[Z](q) in
+  flag := v
+}

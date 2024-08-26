@@ -1,0 +1,2 @@
+let x = mkref true in
+Z(x)

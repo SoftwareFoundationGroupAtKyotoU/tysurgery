@@ -1,0 +1,7 @@
+if true {
+    let q0 = init(l0) in
+    q0
+} else {
+    let q1 = init(l1) in
+    q1
+}
