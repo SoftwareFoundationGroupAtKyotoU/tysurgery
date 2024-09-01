@@ -1,4 +1,4 @@
-# README
+# Type-Based Verification of Connectivity Constraints in Lattice Surgery
 
 ## Structure of the Artifact
 
